@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    line-height: 1.5;
+    background-color: #F39F69;
+  }
+  .flex-container {
+    display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+   position:relative;
+  justify-content: left;
+  align-items: left;  
+  }   
+  .flex-container > div {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    text-align: center;
+    font-size:400px;
+    font-family: 'Alfa Slab One', cursive;
+   color: #B7BFB6;
+
+  }
+   
+    .flex-container1 {
+        display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+       position:relative;
+      justify-content: left;
+      align-items: left;  
+      }   
+      .flex-container1 > div {
+        position: absolute;
+        top: 0px;
+        left:0px;
+        text-align: top;
+        font-size:100px;
+        font-family: 'Chivo Mono', monospace;
+        color: white;
+
+  }
+  a:link {
+    color: #C7875E;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #C7875E;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #C7875E;
+    text-decoration: none;
+  }
+
+  ul {
+    font-family: 'Chivo Mono', monospace;
+    font-size:50px;
+    margin: 908px auto;
+    justify-content: center;
+      align-items: center; 
+  }
+
+  .Indie-Folk{
+    color:#A75D5D; 
+   
+  }
+
+  .Hip-Hop{
+    color:#D3756B;
+ 
+  }
+
+  .Blues{
+    color:#cf8f7a;
+
+  }
+
+  .Indie-Rock{
+    color:#FFC3A1;
+  }

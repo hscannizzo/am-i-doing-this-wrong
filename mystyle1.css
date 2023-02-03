@@ -1,0 +1,172 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    line-height: 1.5;
+    background-color: #E95A3B;
+  }
+  .flex-container {
+    display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+   position:relative;
+  justify-content: left;
+  align-items: left;  
+  }   
+  .flex-container > div {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    text-align: center;
+    font-size:400px;
+    font-family: 'Alfa Slab One', cursive;
+   color: #B5462E;
+
+  }
+   
+    .flex-container1 {
+        display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+       position:relative;
+      justify-content: left;
+      align-items: left;  
+      }   
+      .flex-container1 > div {
+        position: absolute;
+        top: 0px;
+        left:0px;
+        text-align: top;
+        font-size:100px;
+        font-family: 'Chivo Mono', monospace;
+        color: white;
+
+  }
+  .flex-container2 {
+    display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+   position:relative;
+  justify-content: center;
+  align-items: center;  
+  }   
+  .flex-container2 > div {
+    position: absolute;
+    top: 458px;
+    left:864px;
+    text-align: right;
+    font-size:50px;
+    font-family: 'Chivo Mono', monospace;
+    color: white;
+  }
+
+    .flex-container3 {
+        display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+       position:relative;
+      justify-content: center;
+      align-items: center;  
+      }   
+      .flex-container3 > div {
+        position: absolute;
+        top: 1258px;
+        left:0px;
+        text-align: left;
+        font-size:50px;
+        font-family: 'Chivo Mono', monospace;
+        color: white;
+    }
+    .flex-container4 {
+        display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+       position:relative;
+      justify-content: center;
+      align-items: center;  
+      }   
+      .flex-container4 > div {
+        position: absolute;
+        top: 2058px;
+        left:864px;
+        text-align: right;
+        font-size:50px;
+        font-family: 'Chivo Mono', monospace;
+        color: white;
+    }
+    .flex-container5 {
+        display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+       position:relative;
+      justify-content: center;
+      align-items: center;  
+      }   
+      .flex-container5 > div {
+        position: absolute;
+        top: 2858px;
+        left:0px;
+        text-align: left;
+        font-size:50px;
+        font-family: 'Chivo Mono', monospace;
+        color: white;
+    }
+    .flex-container6 {
+        display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+       position:relative;
+      justify-content: center;
+      align-items: center;  
+      }   
+      .flex-container6 > div {
+        position: absolute;
+        top: 3658px;
+        left:864px;
+        text-align: right;
+        font-size:50px;
+        font-family: 'Chivo Mono', monospace;
+        color: white;
+    }
+    .flex-container7 {
+        display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+       position:relative;
+      justify-content: center;
+      align-items: center;  
+      }   
+      .flex-container7 > div {
+        position: absolute;
+        top: 4458px;
+        left:0px;
+        text-align: left;
+        font-size:50px;
+        font-family: 'Chivo Mono', monospace;
+        color: white;
+    }
+
+    a:link {
+        color: #B5462E;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: #B5462E;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:active {
+        color: #B5462E;
+        text-decoration: none;
+      }

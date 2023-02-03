@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    line-height: 1.5;
+    background-color: #F5D985;
+  }
+  .flex-container {
+    display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+   position:relative;
+  justify-content: left;
+  align-items: left;  
+  }   
+  .flex-container > div {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    text-align: center;
+    font-size:400px;
+    font-family: 'Alfa Slab One', cursive;
+   color: #B7BFB6;
+
+  }
+   
+    .flex-container1 {
+        display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+       position:relative;
+      justify-content: left;
+      align-items: left;  
+      }   
+      .flex-container1 > div {
+        position: absolute;
+        top: 0px;
+        left:0px;
+        text-align: top;
+        font-size:100px;
+        font-family: 'Chivo Mono', monospace;
+        color: white;
+
+  }
+
+  .class1 {
+    color:#C7AF68;
+    text-decoration: none;
+  
+
+  }
+  .class2 {
+    color:white;
+    text-decoration: none;
+  }
+
+  ol {
+    color: white;
+    font-size:50px;
+    font-family: 'Chivo Mono', monospace;
+    margin: 708px;
+    justify-content: center;
+    align-items: center; 
+  }
